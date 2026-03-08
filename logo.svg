@@ -1,0 +1,6 @@
+<svg viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <!-- Bridge: two pillars + span + central node (trust/connection) -->
+  <path d="M6 24V10h2v14H6zM40 24V10h2v14h-2z" fill="currentColor"/>
+  <path d="M8 10h32v2H8z" fill="currentColor" opacity="0.8"/>
+  <circle cx="24" cy="10" r="3" fill="currentColor" opacity="0.6"/>
+</svg>
