@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrustSetu X TrustNet — Digital Trust Verification & AI Risk Analysis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="TrustSetu X TrustNet Home">
+        <svg class="logo-svg" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M6 24V10h2v14H6zM40 24V10h2v14h-2z" fill="currentColor"/>
+          <path d="M8 10h32v2H8z" fill="currentColor" opacity="0.8"/>
+          <circle cx="24" cy="10" r="3" fill="currentColor" opacity="0.6"/>
+        </svg>
+        <span>TrustSetu X TrustNet</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links" id="nav-links">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <a href="#tools">Tools</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#overview">Platform Overview</a>
+        <a href="#trust-demo">Trust Scoring</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-card fade-in">
+        <h1>Verifiable Digital Trust Infrastructure</h1>
+        <p class="hero-sub">AI-assisted verification, structured trust scoring, and transparent risk analysis for digital assets, documents, and identities.</p>
+        <div class="hero-cta">
+          <a href="#tools" class="btn btn-primary">Start Analysis</a>
+          <a href="#overview" class="btn btn-secondary">Explore Platform</a>
+        </div>
+        
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 2.5rem; font-size: 0.9rem; font-weight: 500;">
+          <span style="display: flex; align-items: center; gap: 0.4rem;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> 
+            Explainable AI Analysis
+          </span>
+          <span style="display: flex; align-items: center; gap: 0.4rem;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> 
+            Structured Trust Scoring
+          </span>
+          <span style="display: flex; align-items: center; gap: 0.4rem;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg> 
+            Integration Ready APIs
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools" class="section tools">
+      <div class="container">
+        <h2 class="section-title fade-in">Verification Tools</h2>
+        <div class="cards tool-cards">
+          <button type="button" class="card tool-card fade-in" data-tool="image-verification" aria-haspopup="dialog" style="display: flex; flex-direction: column;">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div>
+            <h3>Image Verification Tool</h3>
+            <p style="flex-grow: 1;">Analyze images for authenticity and detect potential manipulation using structured verification workflows.</p>
+            <span style="display: inline-block; margin-top: 1.25rem; color: var(--color-accent); font-weight: 600; font-size: 0.9rem;">Upload Image &rarr;</span>
+          </button>
+          <button type="button" class="card tool-card fade-in" data-tool="trust-score" aria-haspopup="dialog" style="display: flex; flex-direction: column;">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 007 0C12.27.65 11.09 1 11.09 1A5.07 5.07 0 0011 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0015 18.13V22"/></svg></div>
+            <h3>Trust Score Calculator</h3>
+            <p style="flex-grow: 1;">Generate structured credibility scores based on defined trust indicators and evaluation dimensions.</p>
+            <span style="display: inline-block; margin-top: 1.25rem; color: var(--color-accent); font-weight: 600; font-size: 0.9rem;">Calculate Score &rarr;</span>
+          </button>
+          <button type="button" class="card tool-card fade-in" data-tool="risk-analysis" aria-haspopup="dialog" style="display: flex; flex-direction: column;">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg></div>
+            <h3>Risk Analysis Module</h3>
+            <p style="flex-grow: 1;">Evaluate operational and contextual risks associated with digital assets using configurable analysis parameters.</p>
+            <span style="display: inline-block; margin-top: 1.25rem; color: var(--color-accent); font-weight: 600; font-size: 0.9rem;">Run Risk Analysis &rarr;</span>
+          </button>
+          <button type="button" class="card tool-card fade-in" data-tool="report-generator" aria-haspopup="dialog" style="display: flex; flex-direction: column;">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></div>
+            <h3>Report Generator</h3>
+            <p style="flex-grow: 1;">Generate structured verification and risk analysis reports suitable for auditing and documentation.</p>
+            <span style="display: inline-block; margin-top: 1.25rem; color: var(--color-accent); font-weight: 600; font-size: 0.9rem;">Generate Report &rarr;</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section features" style="background: var(--color-bg);">
+      <div class="container">
+        <h2 class="section-title fade-in">Platform Capabilities</h2>
+        <div class="cards feature-cards">
+          <article class="card feature-card fade-in">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg></div>
+            <h3>AI-Based Risk Assessment</h3>
+            <p>Evaluate credibility signals and risk indicators using structured AI-assisted analysis.</p>
+          </article>
+          <article class="card feature-card fade-in">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+            <h3>Document and Image Verification</h3>
+            <p>Validate authenticity of digital assets through traceable verification workflows.</p>
+          </article>
+          <article class="card feature-card fade-in">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 007 0C12.27.65 11.09 1 11.09 1A5.07 5.07 0 0011 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0015 18.13V22"/></svg></div>
+            <h3>Structured Trust Scoring Framework</h3>
+            <p>Generate consistent trust scores using defined evaluation criteria.</p>
+          </article>
+          <article class="card feature-card fade-in">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></div>
+            <h3>Transparent Reporting</h3>
+            <p>Understand how verification results are produced and which signals influenced the outcome.</p>
+          </article>
+          <article class="card feature-card fade-in">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg></div>
+            <h3>Secure Integration Infrastructure</h3>
+            <p>Standardized APIs designed for integration into enterprise systems.</p>
+          </article>
+          <article class="card feature-card fade-in">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg></div>
+            <h3>Activity Monitoring</h3>
+            <p>Track verification operations through structured logging and monitoring.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="trust-demo" class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">Transparent Trust Scoring</h2>
+        <p class="section-intro fade-in">See exactly how our AI evaluates and scores digital assets with clear, explainable indicators.</p>
+        
+        <div class="card fade-in" style="max-width: 600px; margin: 0 auto; border-top: 4px solid var(--color-accent);">
+          <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 1.5rem;">
+            <div>
+              <p style="margin:0; font-size:0.85rem; text-transform:uppercase; letter-spacing:1px; color:var(--color-text-muted);">Example Analysis</p>
+              <h3 style="margin:0.25rem 0 0; font-size:1.25rem;">Asset: Financial_Report_Q3.pdf</h3>
+            </div>
+            <div style="text-align: right;">
+              <span style="font-size: 2.5rem; font-weight: 700; color: var(--color-success); line-height: 1;">82</span>
+              <span style="font-size: 1rem; color: var(--color-text-muted);">/ 100</span>
+            </div>
+          </div>
+
+          <div style="width: 100%; height: 8px; background: var(--color-border); border-radius: 4px; overflow: hidden; margin-bottom: 1.5rem;">
+            <div style="width: 82%; height: 100%; background: var(--color-success);"></div>
+          </div>
+
+          <h4 style="margin:0 0 0.75rem; font-size:0.95rem; color:var(--color-text);">Key Indicators</h4>
+          <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.9rem; color: var(--color-text-muted);">
+            <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2"><path d="M5 13l4 4L19 7"/></svg> 
+              Verified source metadata
+            </li>
+            <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2"><path d="M5 13l4 4L19 7"/></svg> 
+              No digital manipulation detected
+            </li>
+            <li style="display: flex; align-items: center; gap: 0.5rem;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-danger)" stroke-width="2"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg> 
+              Moderate contextual risk identified
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about" style="background: var(--color-bg);">
+      <div class="container">
+        <h2 class="section-title fade-in">About the Platform</h2>
+        <p class="section-intro fade-in">TrustSetu X TrustNet provides verification and risk analysis capabilities for digital trust. The platform focuses on structured evaluation, explainable results, and integration-ready architecture.</p>
+        <div class="cards about-cards">
+          <article class="card fade-in">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3>Mission</h3>
+            <p>Deliver transparent and reliable tools for digital trust verification.</p>
+          </article>
+          <article class="card fade-in">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3>Vision</h3>
+            <p>Enable measurable and understandable trust in digital interactions.</p>
+          </article>
+          <article class="card fade-in">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Technology Approach</h3>
+            <p>Modular architecture, explainable analysis pipelines, and integration-ready APIs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section how-it-works">
+      <div class="container">
+        <h2 class="section-title fade-in">How It Works</h2>
+        <div class="steps">
+          <article class="step fade-in">
+            <span class="step-num">1</span>
+            <h3>Submit Data</h3>
+            <p>Upload digital assets such as documents, images, or identifiers.</p>
+          </article>
+          <span class="step-connector" aria-hidden="true"></span>
+          <article class="step fade-in">
+            <span class="step-num">2</span>
+            <h3>Automated Verification</h3>
+            <p>Analysis pipelines evaluate authenticity signals and metadata.</p>
+          </article>
+          <span class="step-connector" aria-hidden="true"></span>
+          <article class="step fade-in">
+            <span class="step-num">3</span>
+            <h3>Risk Evaluation</h3>
+            <p>Risk indicators are evaluated using structured criteria.</p>
+          </article>
+          <span class="step-connector" aria-hidden="true"></span>
+          <article class="step fade-in">
+            <span class="step-num">4</span>
+            <h3>Structured Trust Output</h3>
+            <p>The system generates trust scores, verification flags, and detailed reports.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview" class="section overview" style="background: var(--color-bg);">
+      <div class="container">
+        <h2 class="section-title fade-in">Platform Architecture</h2>
+        <ul class="overview-list fade-in">
+          <li><strong>Designed for scalability</strong> so components grow with usage demands.</li>
+          <li><strong>Built with modular architecture</strong> so organizations can use individual modules independently.</li>
+          <li><strong>Focused on transparency</strong> with documented evaluation methodology.</li>
+          <li><strong>Integration-ready APIs</strong> allow embedding verification workflows into existing systems.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title fade-in">Contact</h2>
+        <p style="text-align: center; color: var(--color-text-muted); max-width: 600px; margin: 0 auto 2rem; font-size: 1.05rem;" class="fade-in">
+          If your organization is interested in digital trust verification or integration with TrustSetu X TrustNet, contact us to learn more about the platform.
+        </p>
+        <form class="contact-form fade-in" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="contact-name">Name</label>
+            <input type="text" id="contact-name" name="name" required autocomplete="name" placeholder="Your name">
+            <span class="form-error" id="error-name" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email</label>
+            <input type="email" id="contact-email" name="email" required autocomplete="email" placeholder="your@email.com">
+            <span class="form-error" id="error-email" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" required rows="5" placeholder="Your message"></textarea>
+            <span class="form-error" id="error-message" role="alert"></span>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+        </form>
+        <div class="form-success" id="form-success" role="status" aria-live="polite" hidden>
+          Thank you. Your message has been received. We will respond as appropriate.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal-overlay" id="modal-overlay" aria-hidden="true">
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button type="button" class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+      <h2 class="modal-title" id="modal-title">Tool</h2>
+      <p class="modal-desc" id="modal-desc"></p>
+      <div class="modal-placeholder" id="modal-placeholder">
+        <p>Placeholder interface — connect to your backend or demo flow here.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="footer-logo">
+        <svg class="logo-svg" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M6 24V10h2v14H6zM40 24V10h2v14h-2z" fill="currentColor"/>
+          <path d="M8 10h32v2H8z" fill="currentColor" opacity="0.8"/>
+          <circle cx="24" cy="10" r="3" fill="currentColor" opacity="0.6"/>
+        </svg>
+        TrustSetu X TrustNet
+      </a>
+      <nav class="footer-nav">
+        <a href="#overview">Methodology</a>
+        <a href="#tools">API Documentation</a>
+        <a href="#features">Security Architecture</a>
+        <a href="#">Privacy Policy</a>
+      </nav>
+      <p class="footer-copy">&copy; TrustSetu X TrustNet. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button type="button" class="scroll-top" id="scroll-top" aria-label="Scroll to top" hidden>&uarr;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
